@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: url('../assets/color-2174045_1280.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: sans-serif;
+}
+.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 320px;
+    height: 440px;
+    box-sizing: border-box;
+    background-color: rgba(0, 0,0,0.5);
+    color: white;
+    padding: 70px 30px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+    border-radius: 50%;
+}
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}.login p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}.login input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.login input[type="text"], 
+.login input[type= "password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background-color: transparent;
+    outline: none;
+    height: 30px;
+    font-size: 16px;
+}
+.login input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.or{
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.btn{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    margin: 0 10%;
+    cursor: pointer;
+}
+.btn img{
+    width: 27px;
+    height: 27px;
+}
+.btntxt{
+    font-size: 117%;
+}
+.accounts{
+    text-decoration: none;
+    color: rgb(218, 216, 216);
+    font-size: 13px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.accounts:hover{
+    text-decoration: underline;
+    color: white;
+}
