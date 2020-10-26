@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/7.14.5/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/7.14.5/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.14.5/firebase-database.js"></script>
+    <script defer src="/__/firebase/7.14.5/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/7.14.5/firebase-storage.js"></script>
+    <script defer src="/__/firebase/7.14.5/firebase-firestore.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="login">
+      <img src="./assets/logo.jpg" alt="" class="avatar" />
+      <h1>Admin Login</h1>
+      <form>
+        <p>Username</p>
+        <input type="text" name="username" placeholder="Enter Username" />
+        <p>Password</p>
+        <input type="password" name="password" />
+        <input type="submit" name="submit" value="login" />
+        <span class="or">OR</span>
+        <button class="btn">
+          <img src="https://img.icons8.com/color/48/000000/google-logo.png" />
+          <span class="btntxt">Sign In with Google</span>
+        </button>
+        <a href="#" class="accounts">Manage your Accounts</a>
+      </form>
+    </div>
+  </body>
+</html>
